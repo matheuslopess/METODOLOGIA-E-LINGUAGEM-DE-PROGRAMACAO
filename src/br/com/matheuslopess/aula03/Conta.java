@@ -5,6 +5,21 @@ public class Conta {
 	private double saldo;
 	private long numeroConta;
 	
+	public boolean setNome(String texto)
+	{
+		this.nome = texto;
+		return true;
+	}
+	
+	public boolean setNumeroConta(long numero)
+	{
+		if(numero <= 0)
+			return false;
+		
+		this.numeroConta = numero;
+		return true;
+	}
+	
 	public double getSaldo(long numeroConta) {
 		if(this.numeroConta == numeroConta)
 			return this.saldo;

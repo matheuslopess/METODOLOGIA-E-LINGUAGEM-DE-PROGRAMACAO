@@ -1,4 +1,4 @@
-package br.com.matheuslopess.aula02;
+package br.com.matheuslopess.aula02.aula;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package br.com.matheuslopess.aula02;
+package br.com.matheuslopess.aula02.aula;
 
 public class OlaMundo {
 	public static void main(String[] args) {

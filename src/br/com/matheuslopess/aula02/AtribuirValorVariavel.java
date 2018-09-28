@@ -1,4 +1,4 @@
-package br.com.matheuslopess.aula01;
+package br.com.matheuslopess.aula02;
 
 public class AtribuirValorVariavel {
 	public static void main(String[] args) {

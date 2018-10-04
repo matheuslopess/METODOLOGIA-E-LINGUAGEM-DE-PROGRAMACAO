@@ -1,4 +1,4 @@
-package br.com.matheuslopess.aula04.exercicios;
+package br.com.matheuslopess.aula04.aula;
 
 public class Calculadora {
 	

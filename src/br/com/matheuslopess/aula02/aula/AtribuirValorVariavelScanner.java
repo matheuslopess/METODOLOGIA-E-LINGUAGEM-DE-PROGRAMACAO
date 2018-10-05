@@ -18,5 +18,7 @@ public class AtribuirValorVariavelScanner {
 		System.out.println("Escreva sua idade, incluindo os meses passados:");
 		double idade = leitor.nextDouble();
 		System.out.println("O inteiro lido foi -> " + idade);
+		
+		leitor.close();
 	}
 }

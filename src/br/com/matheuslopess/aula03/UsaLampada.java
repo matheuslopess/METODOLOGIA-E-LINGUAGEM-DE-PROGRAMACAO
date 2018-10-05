@@ -1,4 +1,4 @@
-package br.com.matheuslopess.aula03.aula;
+package br.com.matheuslopess.aula03;
 
 public class UsaLampada {
 	

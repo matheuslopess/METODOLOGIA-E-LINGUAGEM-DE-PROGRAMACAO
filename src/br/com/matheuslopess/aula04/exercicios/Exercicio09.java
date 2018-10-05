@@ -22,10 +22,10 @@ public class Exercicio09 {
 		
 		int quantidadePacientesJovensAdultos = 0;
 		
-		String nomeMaisVelho;
+		String nomeMaisVelho = "Nenhum";
 		int idadeMaisVelho = 0;
 		
-		String nomeMulherMaisBaixa;
+		String nomeMulherMaisBaixa = "Nenhum";
 		double alturaMulherMaisBaixa = 0;
 		
 		
@@ -40,15 +40,16 @@ public class Exercicio09 {
 			System.out.println("Informe número que corresponde ao sexo: [1- Masculino ou 2- Feminino]");
 			sexo = leitor.nextInt();
 			
-			System.out.println("Informe o peso:");
+			System.out.println("Informe o valor do peso: [KG]");
 			peso = leitor.nextDouble();
 			
-			System.out.println("Informe a idade:");
+			System.out.println("Informe a idade: [ANOS]");
 			idade = leitor.nextInt();
 			
-			System.out.println("Informe a altura:");
+			System.out.println("Informe a altura: [METROS]");
 			altura = leitor.nextDouble();
 			
+			System.out.println();
 			leitor.nextLine();
 			
 			quantidadePacientes++;
@@ -84,7 +85,7 @@ public class Exercicio09 {
 		
 		System.out.println("Quantidade de pacientes: " + quantidadePacientes);
 		System.out.println("Média de idade dos homens: " + mediaIdadeHomens);
-		System.out.println("Quantidade de mulheres com altura entre 1,60 e 1,70 e peso acima de 70kg: " quantidadeMulheresMedianasGordinhas);
+		System.out.println("Quantidade de mulheres com altura entre 1,60 e 1,70 e peso acima de 70kg: " + quantidadeMulheresMedianasGordinhas);
 		System.out.println("Quantidade de pessoas com idade entre 18 e 25: " + quantidadePacientesJovensAdultos);
 		System.out.println("Nome do paciente mais velho: " + nomeMaisVelho);
 		System.out.println("Nome da mulher mais baixa: " + nomeMulherMaisBaixa);
